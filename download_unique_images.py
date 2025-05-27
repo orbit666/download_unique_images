@@ -44,7 +44,7 @@ def download_unique_images(url, save_path, max_attempts=1000, delay=0.5):
     print(f"\n🎉 下载完成！共保存唯一图片 {saved_count} 张\n")
 
 if __name__ == "__main__":
-    IMAGE_URL = "https://img.loliapi.cn/i/pc/img385.webp"  #设置随机api的网址
+    IMAGE_URL = "https://www.loliapi.com/acg/pc/"  #设置随机api的网址
     SAVE_DIR = "unique_images" #目录
     ATTEMPTS = 1000   # 可调成你想要的尝试次数（例如 5000）
     DELAY_SEC = 0.5   # 每次请求间隔时间（秒）
